@@ -9,19 +9,19 @@ Other lines should content proof, each line should be a ***Proposition***. ***Ma
 
 Universal quantification is a **@** symbol. Existential quantification is a **?** symbol. Usage of quantifiers: **@** ***Variable*** **.** ***Proposition***. All predicate symbols and function symbols are the same: **->**, **|**, **&**, **!**, **=**, **+**, **\***. Round brackets are allowed. 
 
-***Variable*** as predicate should start with uppercase letter, and then content only digits.
-***Variable*** as number should start with lowercase letter, and then content only digits.
+***Variable*** as predicate should start with uppercase letter, and then content only digits.  
+***Variable*** as number should start with lowercase letter, and then content only digits.  
 Keep in mind, that 0 is *0*, 1 is *0'*, 2 is *0''*, 6 is *0''''''*.
 
 #### Example
 
-P(b) |- ( (?a.P(a)) -> (A->A->A) -> P(b) )
-P(b)
-P(b) -> (A->A->A) -> P(b)
-(A->A->A) -> P(b)
-((A->A->A) -> P(b)) -> P(a) -> (A->A->A) -> P(b)
-P(a) -> (A->A->A) -> P(b)
-(?a.P(a)) -> (A->A->A) -> P(b)
+P(b) |- ( (?a.P(a)) -> (A->A->A) -> P(b) )  
+P(b)  
+P(b) -> (A->A->A) -> P(b)  
+(A->A->A) -> P(b)  
+((A->A->A) -> P(b)) -> P(a) -> (A->A->A) -> P(b)  
+P(a) -> (A->A->A) -> P(b)  
+(?a.P(a)) -> (A->A->A) -> P(b)  
 
 ### How to use
 
